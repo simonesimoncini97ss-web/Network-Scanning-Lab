@@ -1,0 +1,13 @@
+# Nmap Vulnerability Scan (Simulated)
+
+Command:
+nmap --script vuln 192.168.1.10
+
+Results:
+- Apache httpd 2.4.29 → CVE-2019-0211 (privilege escalation)
+- MySQL 5.7.33 → multiple known vulnerabilities
+- SSH → no critical vulnerabilities detected
+
+Notes:
+- Web server vulnerable
+- Database version outdated
