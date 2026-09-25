@@ -1,0 +1,15 @@
+# Nmap Basic Scan (Simulated)
+
+Command:
+nmap -sS 192.168.1.10
+
+Results:
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+443/tcp  open   https
+3306/tcp open   mysql
+
+Notes:
+- SSH exposed externally
+- MySQL exposed → high risk
