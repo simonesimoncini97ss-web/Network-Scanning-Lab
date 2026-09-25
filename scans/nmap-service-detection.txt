@@ -1,0 +1,15 @@
+# Nmap Service Detection (Simulated)
+
+Command:
+nmap -sV 192.168.1.10
+
+Results:
+22/tcp   open   ssh       OpenSSH 7.6p1
+80/tcp   open   http      Apache httpd 2.4.29
+443/tcp  open   ssl/http  nginx 1.18
+3306/tcp open   mysql     MySQL 5.7.33
+
+Notes:
+- Apache version outdated
+- MySQL version outdated
+- Nginx version acceptable
